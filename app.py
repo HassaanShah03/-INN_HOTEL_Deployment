@@ -12,7 +12,7 @@ with open('transformer.pkl','rb') as file:
 
 def predctions(input_list):
     
-    input_list = np.array(input_list,dtype=object)
+    
     
     pred = model.predict_proba([input_list])[:,1][0]
 
