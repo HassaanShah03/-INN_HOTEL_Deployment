@@ -43,7 +43,7 @@ def main():
     inp_list = [lt_t,mst,spcl,price_t,adults,wkend,park,wk,month,day,wkday]
 
     if st.button('Predict'):
-        response = predction(inp_list)
+        response = prediction(inp_list)
         st.success(response)
 
 if __name__=='__main__':
